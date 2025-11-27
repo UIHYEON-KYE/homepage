@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <title>데이터 사이언티스트 포트폴리오 — UIHYEON-KYE</title>
+    <meta name="description" content="데이터 사이언티스트 포트폴리오 — 프로젝트, 기술 스택, 블로그 링크" />
+    <link rel="stylesheet" href="/css/styles.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+  </head>
+  <body>
+    <header class="site-header">
+      <div class="container header-inner">
+        <h1 class="brand"><a href="#">UIHYEON-KYE</a></h1>
+        <nav class="nav">
+          <a href="#about">About</a>
+          <a href="#skills">Skills</a>
+          <a href="#projects">Projects</a>
+          <a href="#blog">Blog</a>
+          <a href="#contact">Contact</a>
+          <a href="/resume.pdf" target="_blank">Resume</a>
+        </nav>
+      </div>
+    </header>
+
+    <main>
+      <section class="hero container">
+        <div class="hero-left">
+          <h2>데이터로 스토리를 전달하는 데이터 사이언티스트</h2>
+          <p class="lead">머신러닝 모델, 데이터 시각화, 분석 파이프라인 구성에 경험이 있으며 실제 비즈니스 문제를 해결하는 것을 좋아합니다.</p>
+          <p class="cta-row">
+            <a class="btn primary" href="#projects">프로젝트 보기</a>
+            <a class="btn ghost" href="#contact">연락하기</a>
+          </p>
+        </div>
+        <div class="hero-right">
+          <div class="profile-card">
+            <img alt="profile" src="/assets/profile-placeholder.svg" class="profile-img" />
+            <div>
+              <strong>UIHYEON-KYE</strong>
+              <div class="muted">Data Scientist — Python, ML, Visualization</div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section id="about" class="container about">
+        <h3>About</h3>
+        <p>데이터 분석과 모델링으로 문제를 해결하고 의사결정을 지원합니다. 통계, 머신러닝, MLOps에 걸친 프로젝트를 수행했습니다. 아래 프로젝트에서 샘플 코드를 확인하고, 블로그에서 분석/해설 포스트를 확인하세요.</p>
+      </section>
+
+      <section id="skills" class="container skills">
+        <h3>Skills</h3>
+        <div class="skill-grid">
+          <div class="skill">Python</div>
+          <div class="skill">Pandas / NumPy</div>
+          <div class="skill">scikit-learn</div>
+          <div class="skill">PyTorch / TensorFlow</div>
+          <div class="skill">SQL</div>
+          <div class="skill">Data Visualization</div>
+          <div class="skill">Docker / MLOps</div>
+          <div class="skill">Experimentation & AB testing</div>
+        </div>
+      </section>
+
+      <section id="projects" class="container projects">
+        <h3>Projects</h3>
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:12px;flex-wrap:wrap">
+          <input id="projectSearch" placeholder="프로젝트 검색 — 타이틀, 태그" style="flex:1;min-width:220px;padding:8px;border-radius:8px;border:1px solid rgba(255,255,255,0.06);background:transparent;color:var(--white)" />
+          <div id="tag-filter" style="display:flex;gap:8px;flex-wrap:wrap"></div>
+        </div>
+        <div id="projects-grid" class="projects-grid">
+          <!-- project cards are rendered dynamically -->
+        </div>
+      </section>
+
+      <section id="dashboard" class="container dashboard">
+        <h3>Interactive sample: Model metrics</h3>
+        <div class="dashboard-grid">
+          <div class="card small">
+            <canvas id="accuracyChart" width="400" height="240"></canvas>
+          </div>
+          <div class="card small">
+            <h4>Quick summary</h4>
+            <ul>
+              <li>Best model: RandomForestClassifier — 0.87 accuracy</li>
+              <li>Dataset: 고객 이탈 예측 (샘플)</li>
+              <li>Features: 18</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section id="blog" class="container blog">
+        <h3>Blog & Writing</h3>
+        <p>프로젝트 상세 설명과 기법, 구현 팁을 블로그에 정리해 둡니다. (예: 모델 해석, 피처 엔지니어링, 배포 전략)</p>
+        <ul>
+          <li><a href="#">How I built a churn model — write-up and code</a></li>
+          <li><a href="#">Visualizing time series anomalies</a></li>
+        </ul>
+      </section>
+
+      <section id="contact" class="container contact">
+        <h3>Contact</h3>
+        <p>이메일: <a href="mailto:uihyeon@example.com">uihyeon@example.com</a></p>
+        <p>깃허브: <a href="#">github.com/UIHYEON-KYE</a></p>
+      </section>
+
+    </main>
+
+    <footer class="site-footer">
+      <div class="container">© 2025 UIHYEON-KYE — 데이터 사이언티스트 포트폴리오</div>
+    </footer>
+
+    <script src="/js/main.js" type="module"></script>
+  </body>
+</html>

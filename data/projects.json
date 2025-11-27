@@ -1,0 +1,22 @@
+[
+  {
+    "title": "고객 이탈 예측 (Churn Prediction)",
+    "short": "구독 서비스의 고객 이탈을 예측하고 리텐션 전략 제안",
+    "description": "데이터 정제, 피처 엔지니어링, 여러 분류 모델 실험, 모델 해석과 비즈니스적 인사이트를 도출했습니다.",
+    "tags": ["Python","scikit-learn","EDA","Feature Engineering","XGBoost"],
+    "image": "/assets/project-churn.svg",
+    "demo": "#",
+    "repo": "#",
+    "date": "2024"
+  },
+  {
+    "title": "수요 예측 모델 (Time-series)",
+    "short": "시계열 기반의 수요 예측 모델을 개발하여 재고 최적화에 기여",
+    "description": "Prophet, LSTM 기반 예측을 비교하고 비즈니스 규칙을 적용한 후 모델이 실제 운영에서 유의미한 절감 효과를 냈습니다.",
+    "tags": ["Time Series","PyTorch","Forecasting","ARIMA"],
+    "image": "/assets/project-forecast.svg",
+    "demo": "#",
+    "repo": "#",
+    "date": "2023"
+  }
+]
