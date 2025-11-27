@@ -1,4 +1,4 @@
-# Data Scientist Portfolio — homepage
+# Data Scientist Portfolio — 계의현
 
 This repository contains a simple, static portfolio website template for a data scientist. It includes an HTML/CSS/JS single-page layout with sample projects and a small interactive chart (Chart.js).
 

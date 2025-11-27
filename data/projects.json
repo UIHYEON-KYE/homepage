@@ -19,4 +19,15 @@
     "repo": "#",
     "date": "2023"
   }
+ ,
+  {
+    "title": "파이썬 데이터 분석 사례 — 고객 세분화 및 인사이트",
+    "short": "고객 행동 데이터를 기반으로 세분화(클러스터링)와 세그먼트별 인사이트 도출",
+    "description": "Pandas와 scikit-learn을 사용해 데이터 정제 및 EDA를 수행하고 KMeans 기반 클러스터링으로 고객 세그먼트를 정의했습니다. 각 세그먼트별 핵심 지표(구매 빈도, 평균 구매액, 채널 선호)를 시각화하고 비즈니스 전략 제안서를 작성했습니다.",
+    "tags": ["Python","Pandas","scikit-learn","EDA","Clustering","Visualization"],
+    "image": "/assets/project-python.svg",
+    "demo": "#",
+    "repo": "#",
+    "date": "2025"
+  }
 ]
