@@ -1,4 +1,4 @@
-const projects = await fetch('/data/projects.json').then(r => r.json()).catch(()=>[])
+const projects = await fetch('data/projects.json').then(r => r.json()).catch(()=>[])
 
 function linkOrHash(url){return url?url:'#'}
 
@@ -12,7 +12,7 @@ function renderProjects(gridEl, projects){
     const card = document.createElement('article')
     card.className = 'project-card'
     card.innerHTML = `
-      <img src="${p.image || '/assets/project-placeholder.svg'}" alt="${p.title}" />
+      <img src="${p.image || 'assets/project-placeholder.svg'}" alt="${p.title}" />
       <div style="display:flex;justify-content:space-between;align-items:center">
         <div>
           <div class="project-title">${p.title}</div>
@@ -120,7 +120,7 @@ document.addEventListener('DOMContentLoaded', ()=>{
     const images = project.screenshots || [project.image].filter(Boolean)
     images.forEach(src=>{
       const img = document.createElement('img')
-      img.src = src || '/assets/profile-placeholder.svg'
+      img.src = src || 'assets/profile-placeholder.svg'
       modalImages.appendChild(img)
     })
 
