@@ -113,5 +113,33 @@
     </footer>
 
     <script src="/js/main.js" type="module"></script>
+    <!-- Project detail modal (hidden by default) -->
+    <div id="projectModal" class="project-modal" aria-hidden="true">
+      <div class="modal-backdrop" data-close></div>
+      <div class="modal-dialog" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <button class="modal-close" aria-label="Close" data-close>&times;</button>
+        <div class="modal-body">
+          <header class="modal-header">
+            <h2 id="modalTitle">Project title</h2>
+            <div class="muted" id="modalMeta">Demo · 2025</div>
+          </header>
+          <div class="modal-content">
+            <div class="modal-left">
+              <div id="modalImages" class="modal-images"></div>
+            </div>
+            <div class="modal-right">
+              <p id="modalLong">Long description goes here</p>
+              <div id="modalTags" style="margin-top:8px"></div>
+              <div style="margin-top:12px;display:flex;gap:8px">
+                <a id="modalDemo" class="btn ghost" target="_blank">Demo</a>
+                <a id="modalRepo" class="btn ghost" target="_blank">Code</a>
+                <a id="modalReport" class="btn ghost" target="_blank">Report</a>
+                <a id="modalNotebook" class="btn ghost" target="_blank">Notebook</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
   </body>
 </html>

@@ -7,7 +7,11 @@
     "image": "/assets/project-churn.svg",
     "demo": "#",
     "repo": "#",
-    "date": "2024"
+    "date": "2024",
+    "long": "구독 서비스의 고객 이탈을 예측하는 프로젝트입니다. 데이터 수집 → 결측치 처리 → 피처 엔지니어링 → 모델 선택(랜덤 포레스트, XGBoost 등) → 모델 해석(SHAP) 및 비즈니스 리포트 작성까지의 파이프라인을 구축했습니다. 결과적으로 타겟팅 캠페인으로 예상 이탈률을 낮출 수 있는 주요 인사이트를 도출했습니다.",
+    "screenshots": ["/assets/project-churn.svg"],
+    "report": "#",
+    "notebook": "#"
   },
   {
     "title": "수요 예측 모델 (Time-series)",
@@ -17,7 +21,11 @@
     "image": "/assets/project-forecast.svg",
     "demo": "#",
     "repo": "#",
-    "date": "2023"
+    "date": "2023",
+    "long": "다양한 시계열 기법(Prophet, ARIMA, LSTM)을 비교하여 SKU 수준의 수요 예측 모델을 구축했습니다. 외부 이벤트와 시즌성을 설명하는 피처를 추가하고, 여러 시나리오에 기반한 재고 최적화 시뮬레이션을 수행했습니다. 모델은 PoC 단계에서 공급 비용 감소에 기여했습니다.",
+    "screenshots": ["/assets/project-forecast.svg"],
+    "report": "#",
+    "notebook": "#"
   }
  ,
   {
@@ -28,6 +36,10 @@
     "image": "/assets/project-python.svg",
     "demo": "#",
     "repo": "#",
-    "date": "2025"
+    "date": "2025",
+    "long": "Pandas를 사용한 데이터 정제, 결측치/이상치 처리, 다변량 EDA를 수행하고 KMeans 클러스터링으로 고객 세그먼트를 정의했습니다. 각 세그먼트별 고객 행동(구매 빈도, 평균 구매액, 선호 채널 등)을 시각화해 마케팅/프로덕트에 적용 가능한 인사이트를 도출하고, 제안된 액션 플랜의 예상 효과를 정량적으로 제시했습니다.",
+    "screenshots": ["/assets/project-python.svg"],
+    "report": "#",
+    "notebook": "#"
   }
 ]
